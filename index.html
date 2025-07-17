@@ -1,29 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+
+  <!-- ✅ Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- ✅ Your CSS -->
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- Header -->
-  <header>
+  <!-- ✅ NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">Daniel Mwangi</div>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ✅ HEADER -->
+  <header class="fade-in">
     <h1>DANIEL KURIA MWANGI</h1>
     <p>Teacher | Web Developer | Designer</p>
   </header>
 
-  <!-- Tab Buttons -->
-  <div class="tabs">
+  <!-- ✅ TABS -->
+  <div class="tabs fade-in">
     <button class="tab-button active" data-tab="about">About</button>
     <button class="tab-button" data-tab="education">Education</button>
     <button class="tab-button" data-tab="experience">Experience</button>
     <button class="tab-button" data-tab="contact">Contact</button>
   </div>
 
-  <!-- About Section -->
-  <section id="about" class="tab-content active">
+  <!-- ✅ SECTIONS -->
+  <section id="about" class="tab-content active fade-in">
     <h2>About Me</h2>
     <p>
       I am a dedicated Mathematics and Business teacher. 
@@ -32,8 +48,7 @@
     </p>
   </section>
 
-  <!-- Education -->
-  <section id="education" class="tab-content">
+  <section id="education" class="tab-content fade-in">
     <h2>Education</h2>
     <ul>
       <li><strong>Bachelor Education Arts with IT</strong> - Tom Mboya University (2020-2024)</li>
@@ -42,36 +57,28 @@
     </ul>
   </section>
 
-  <!-- Work Experience -->
-  <section id="experience" class="tab-content">
+  <section id="experience" class="tab-content fade-in">
     <h2>Work Experience</h2>
     <ul>
       <li><strong>Freelancing</strong> - Web development (2024)</li>
       <li><strong>Freelance Projects</strong> - Built personal websites for clients</li>
-      <li>
-        <strong>Worked at Bytesync as an Intern</strong>  
-        - Assisting in building or updating websites using HTML, CSS, JavaScript  
-        - Helping with responsive design using frameworks like Bootstrap or Tailwind  
-        - Fixing basic layout or styling bugs  
-        - Testing pages for cross-browser compatibility  
-      </li>
-      <li><strong>Gendia High School</strong> - Business and Mathematics Teacher (2023)</li>
+      <li><strong>Worked at Bytesync as an Intern</strong> - Assisting in building/updating websites</li>
+      <li><strong>Gendia High School</strong> - Business & Mathematics Teacher (2023)</li>
     </ul>
   </section>
 
-  <!-- Contact -->
-  <section id="contact" class="tab-content">
+  <section id="contact" class="tab-content fade-in">
     <h2>Contact Me</h2>
     <p>Email: <a href="mailto:kushpi261@gmail.com">kushpi261@gmail.com</a></p>
     <p>GitHub: <a href="https://github.com/Chinku003" target="_blank">github.com/Chinku003</a></p>
   </section>
 
-  <!-- Footer -->
-  <footer>
+  <!-- ✅ FOOTER -->
+  <footer class="fade-in">
     <p>© 2025 Daniel Mwangi. All Rights Reserved.</p>
   </footer>
 
+  <!-- ✅ JS -->
   <script src="script.js"></script>
 </body>
 </html>
-
