@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
         entry.target.style.opacity = "1";
       }
     });
-  }, { threshold: 0.2 });
+  }, { threshold: 0.24 });
 
   fadeElements.forEach(el => observer.observe(el));
 });

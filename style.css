@@ -19,7 +19,7 @@ body {
   position: sticky;
   top: 0;
   background: #222;
-  color: #fff;
+  color: #f1e3e3;
   padding: 15px 20px;
   display: flex;
   justify-content: space-between;
@@ -46,13 +46,13 @@ body {
 }
 
 .navbar ul li a:hover {
-  color: #00b4d8;
+  color: #c4d0d2;
 }
 
 /* ✅ HEADER */
 header {
   text-align: center;
-  background: linear-gradient(135deg, #007BFF, #00b4d8);
+  background: linear-gradient(135deg, #498fda, #347785);
   color: #fff;
   padding: 60px 20px;
 }
